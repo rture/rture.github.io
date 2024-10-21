@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Writing Reusable Components in React: Best Practices"
 date:   2024-10-20 21:30:41 -0400
-categories: jekyll update
+categories: ReactJS
 ---
 ## Writing Reusable Components in React: Best Practices
 
