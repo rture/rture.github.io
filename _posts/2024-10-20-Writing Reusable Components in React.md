@@ -53,8 +53,6 @@ In this post, we will explore some best practices for writing reusable React com
 
    In this case, the `Card` component is reusable and composable. It can accept different types of content via the `children` prop.
 
----
-
 ### Do Not Access React Context, Redux, or Zustand Directly in the Component
 
 When creating reusable components, **do not directly access React Context, Redux, or Zustand state inside the component**. Tying a component directly to these state management solutions limits its reusability since it becomes dependent on a specific global state.
@@ -66,8 +64,6 @@ When creating reusable components, **do not directly access React Context, Redux
 - **Impedes testing**: Components that access global state directly can be harder to test in isolation since they rely on specific providers being present.
 
 Instead, the component should receive the data it needs via props, and the logic for accessing state should be moved to a **wrapper component** or **parent component**.
-
----
 
 ### Build a Wrapper Around the Component to Use React Context
 
@@ -114,8 +110,6 @@ Let’s say we have a `ThemeContext` that provides the current theme for the app
 ### Isolated Testing
 
 Since the reusable component is unaware of any global state, you can test it in complete isolation. You simply need to provide the necessary props and verify that it behaves as expected. There is no need to mock global state providers like React Context or Redux in your tests.
-
----
 
 ### Conclusion
 
