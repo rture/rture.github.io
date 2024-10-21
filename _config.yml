@@ -21,10 +21,8 @@
 title: Tech, Leadership, SDLC and Entrepreneurship Notes...
 email: rizature@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Software development, leadership, technology and entrepreneurship 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: rture
 github_username:  rture
 
 # Build settings
